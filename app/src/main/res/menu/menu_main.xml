@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="group3.piggybank.TransactionListActivity">
+    <item
+        android:id="@+id/action_logOut"
+        android:orderInCategory="100"
+        android:title="@string/action_logOut"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_stats"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:orderInCategory="200"
+        android:title="@string/action_stats"
+        app:showAsAction="ifRoom" />
+</menu>
